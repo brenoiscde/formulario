@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(/images/bg-intro-desktop.png);
+    font-family: "Poppins", sans-serif;
+    background-color:tomato;
+}
+h1{
+    font-size: 52px;
+    margin-bottom: 20px;
+    line-height:1.2;
+    color: white;
+}
+p{
+    color: white;
+    width: 550px;
+}
+main{
+    display: flex;
+    justify-content: center;
+    margin-top: 12rem;
+    align-items: center;
+    gap: 20px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    margin: 10px;
+    background-color: aliceblue;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.17) 12px 10px 5px;
+}
+
+.container-texto{
+    max-width: 600px;
+}
+.container-form{
+    display: flex;
+    flex-direction: column;
+    width: 40rem;
+    align-items: center;
+}
+
+input{
+    font-size: 16px;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+button{
+    font-family: "Poppins", sans-serif;
+    font-size: 28px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid;
+    border-radius:5px ;
+    cursor: pointer;
+}
+button:hover{
+    background-color:rgb(7, 92, 38);
+}
+
+.butao-cima{
+    background-color:rgb(87, 50, 175);
+    color: white;
+    border: 1px solid rgb(87, 50, 175);
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.17) 12px 10px 5px;
+}
+.butao-cima:hover{
+    background-color:rgb(78, 16, 225);
+}
+.subimit{
+    color: aliceblue;
+    background-color: rgb(84, 189, 122);
+}
+.sla{
+    color: gray;
+}
+span{
+    color: red;
+    cursor: pointer;
+}
